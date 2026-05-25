@@ -1,0 +1,6 @@
+base\BasePage.class
+pages\LoginPage.class
+base\E2Etest.class
+pages\NewCustomerPage.class
+pages\ManagerHomePage.class
+factory\PlaywrightFactory.class

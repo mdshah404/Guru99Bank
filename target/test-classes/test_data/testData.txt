@@ -1,0 +1,16 @@
+username | password
+mngr123  | pass1
+mngr456  | pass2
+
+
+This project demonstrates real SDET skills:
+-------------------------------------------
+✔ Playwright automation
+✔ Page Object Model
+✔ TestNG execution
+✔ Data-driven testing
+✔ Parallel execution
+✔ ChainTest reporting
+✔ Screenshot on failure
+✔ Config-driven execution
+✔ Scalable framework design
