@@ -78,19 +78,16 @@ public class E2Etest {
 	    //attach trace to allure report
         Path tracePath = Paths.get("tracings/trace.zip");
 		context.tracing().stop(new Tracing.StopOptions().setPath(tracePath));
-		Allure.attachment("trace file", "This is trace.");
         try (InputStream is = Files.newInputStream(tracePath)) {
-            Allure.attachment("trace", is);
+            Allure.addAttachment("test execution trace", is);
         }
         
       //attach screenshot to allure report
 	    Path screenshotPath = Paths.get("screenshots/signupPage.png");
 	    byte[] screenPics = page.screenshot(new Page.ScreenshotOptions().setFullPage(true).setPath(screenshotPath));
 	    String base64 = Base64.getEncoder().encodeToString(screenPics); 
-	    
-	    Allure.attachment("screenshot", "Signup page screenshot");
         try (InputStream is = Files.newInputStream(screenshotPath)) {
-            Allure.attachment("image.png", is);
+            Allure.addAttachment("Signup page image", is);
         }
 		
         //Path videoPath = page.video().path();
@@ -101,9 +98,8 @@ public class E2Etest {
 		
 		 //attach video to allure report
 		Path videoPath = page.video().path();
-	    Allure.attachment("execution video", "video/webm");
         try (InputStream is = Files.newInputStream(videoPath)) {
-            Allure.attachment("video", is);
+            Allure.addAttachment("test execution video", is);
         }
         System.out.println("chrome test passed");
 		Allure.step("chrome test finished");

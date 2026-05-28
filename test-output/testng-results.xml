@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-25T17:49:22 EDT" name="Suite" finished-at="2026-05-25T17:49:35 EDT" duration-ms="12729">
+  <suite started-at="2026-05-28T00:24:23 EDT" name="Default suite" finished-at="2026-05-28T00:24:38 EDT" duration-ms="14371">
     <groups>
     </groups>
-    <test started-at="2026-05-25T17:49:22 EDT" name="Test" finished-at="2026-05-25T17:49:35 EDT" duration-ms="12729">
+    <test started-at="2026-05-28T00:24:23 EDT" name="Default test" finished-at="2026-05-28T00:24:38 EDT" duration-ms="14371">
       <class name="base.E2Etest">
-        <test-method signature="chromeTest()[pri:0, instance:base.E2Etest@4b8d604b]" started-at="2026-05-25T17:49:22 EDT" name="chromeTest" finished-at="2026-05-25T17:49:35 EDT" duration-ms="12614" status="PASS">
+        <test-method signature="chromeTest()[pri:0, instance:base.E2Etest@3feb2dda]" started-at="2026-05-28T00:24:23 EDT" name="chromeTest" finished-at="2026-05-28T00:24:38 EDT" duration-ms="14236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chromeTest -->
       </class> <!-- base.E2Etest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
