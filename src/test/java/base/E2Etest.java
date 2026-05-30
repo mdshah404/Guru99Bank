@@ -103,6 +103,8 @@ public class E2Etest {
         }
         System.out.println("chrome test passed");
 		Allure.step("chrome test finished");
+		
+		System.out.println("Allure report added");
 	
 	}
 
