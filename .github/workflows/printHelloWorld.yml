@@ -1,0 +1,10 @@
+name: my first github action
+on: workflow_dispatch
+jobs:
+    print-hello-world:
+        runs-on: ubuntu-latest
+        steps: 
+            - echo hello world
+            - echo this is step two.
+    
+
